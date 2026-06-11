@@ -1,0 +1,17 @@
+{
+	"required": false,
+	"package": "meow.meow.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"UserMixin",
+		"UserNamedMixin",
+		"MinecraftClientMixin",
+		"YggdrasilMinecraftSessionServiceMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

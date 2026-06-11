@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "anti-ssid",
+	"version": "${version}",
+	"name": "anti-ssid",
+	"description": "keeps minecraft session tokens safer, warns when something tries to read them",
+	"authors": [
+		"planetofangels"
+	],
+	"contact": {
+		"homepage": "https://github.com/planetofangels",
+		"sources": "https://github.com/planetofangels"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/anti-ssid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"meow.meow.AntiSsid"
+		],
+		"client": [
+			"meow.meow.client.AntiSsidClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "anti-ssid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "${minecraft_version_range}",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
