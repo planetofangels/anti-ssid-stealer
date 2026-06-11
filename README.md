@@ -1,8 +1,11 @@
 # anti-ssid
 
-## Setup
+## Instructions
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+When something requests your accessToken it will ask you to confirm. 
+Your accessToken is always encrypted
+<img width="857" height="519" alt="{707DEB42-6945-4EA3-AD53-321C78A208EA}" src="https://github.com/user-attachments/assets/60940de9-0b27-455d-b5c2-6ed54cdac10f" />
+
 
 ## License
 
