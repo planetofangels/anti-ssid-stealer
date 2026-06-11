@@ -1,4 +1,4 @@
-# anti-ssid
+# anti ssid stealer 1.21.10 - 26.1.2
 
 ## Instructions
 
