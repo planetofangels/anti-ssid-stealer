@@ -1,6 +1,6 @@
 # anti ssid stealer 1.21.10 - 26.1.2
 
-pretty much a "why not" mod especially when using skyblock.
+pretty much a nice to have, especially when using skyblock.
 
 
 ## Instructions
